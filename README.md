@@ -5,7 +5,7 @@ These folders are a visual portfolio with a really small part of my projects. Ea
 - frontend: React Native, Typescript
 - backend: ASP.net Core (C#)
 - db: SQL Server
-*extra: BEACONS
+- extra: BEACONS
 
 2. N00bs (web app):
 - frontend: React, Typescript
