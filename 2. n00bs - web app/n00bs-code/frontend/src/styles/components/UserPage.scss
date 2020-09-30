@@ -1,0 +1,85 @@
+@import "../colorPalette";
+@import "../fonts/noobs-font";
+
+.profile-picture-area {
+  align-items: center;
+  display: flex;
+  width: 100vh;
+  justify-content: center;
+}
+
+.profile-picture {
+  width: calc(15px + 15vw);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 4px solid;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.center-items {
+  align-items: center;
+  padding-left: 4vw;
+  display: flex;
+  font-size: 166%;
+  color: #ff9900;
+}
+
+.user-page-btn {
+  border: none;
+  font-family: "noobs-font";
+  font-size: inherit;
+  color: $white !important;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.more-info-div {
+  background-color: $darkGray;
+  border-radius: 30px;
+  box-shadow: 0 7px #222222;
+  margin-top: 3vh;
+  padding: 2vh;
+  color: white;
+  font-size: 18px;
+  font-family: "noobs-font";
+  font-weight: 100;
+  justify-content: "space-around";
+  display: flex;
+}
+
+.more-info-div.row.no-gutters {
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.user-page-btn-2g:hover {
+  box-shadow: 0 4px $red;
+  top: 2px;
+}
+
+.user-page-btn-2g {
+  border-radius: 40px;
+}
+
+.user-page-btn-2 {
+  background: $orange !important;
+  color: #fff;
+  box-shadow: 0 6px $red;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}

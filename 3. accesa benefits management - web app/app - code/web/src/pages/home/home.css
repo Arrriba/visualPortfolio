@@ -1,0 +1,96 @@
+.upper-toolbar {
+    position: absolute;
+    /*display: flex;
+    flex-grow:1;
+    flex-basis: auto; */
+    width: 100%;
+    height: 100%;
+    background-color:aqua;
+    margin-left:200px;
+    color: black;
+
+} 
+
+.card-elements{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: calc(50% - 100px);
+    top: calc(50% - 210px);
+    padding: 20px;
+    border-width: 0px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#button {
+    width: 200px;
+    text-align: center;
+    /* background-color: #0098BB; */
+    background-color:#0098BB;
+    margin-top:10px;
+}
+
+#button-disabled {
+    width: 200px;
+    text-align: center;
+    /* background-color: #0098BB; */
+    background-color:#0098BB;
+    margin-top:10px;
+    opacity: .5;
+}
+
+
+#text-input {
+    width:180px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;	
+    text-align: center;
+    color: #474955;
+}
+
+#old-pwd {
+    width:180px;
+    font-family: cursive;
+    text-align: center;
+    color: #474955;
+    background-color: #C9463D;
+    border-radius: 4px;;
+}
+#text{
+    width:300px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;	
+    text-align: center;
+    color: #0098bb;
+}
+
+#card-id{
+    box-shadow: 0px;
+    border: 0;
+    outline-color: white;
+    shape-outside: none;
+    margin: none;
+    border-width: 0px;
+    box-decoration-break: unset;
+    stroke:0px;
+    shape-outside: none;
+}
+
+.page-container{
+    height: 100%;
+    width: 100%;
+    flex:1 1 auto;
+}
+
+.change-error-note {
+    font-size: 14px;
+    color: red;
+}
+
+.change-succ {
+    font-size: 14px;
+    color: green;
+}

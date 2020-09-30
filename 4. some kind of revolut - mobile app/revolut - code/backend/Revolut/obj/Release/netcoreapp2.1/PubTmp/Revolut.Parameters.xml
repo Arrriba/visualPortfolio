@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="wa-dev-start-666" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\testgit\\bla\\react-native-training-starters\\AccesaApi\\Revolut\\Revolut\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

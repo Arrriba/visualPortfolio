@@ -1,0 +1,5 @@
+
+blue: 0098BB
+gray: 474955
+light gray: 9AA3A6
+red: EE303C

@@ -1,0 +1,195 @@
+#create-area-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    width: 1000px;
+    height: 90%;
+    left: calc(50% - 460px);
+    top: calc(50% - 290px);
+ background-color: white;
+    overflow-y: auto;
+    opacity: 100%;
+    border-width: 100px;
+    outline-color: #0098BB;
+    outline-width: 100px;
+    border-color:#0098BB; 
+    border-top:100px;
+}
+
+.full-page-container{
+    width: 6000px;
+    height: 900px;
+    background-repeat: repeat-x; 
+    background-position-y: 100px;
+    background-size: 20%;
+    background-position-x: 200px;
+    opacity: 20%;
+
+}
+
+.image-preview {
+    width: 300px;
+    height: 300px;
+    border-color:white;
+    border-width:0px;
+}
+.img-create {
+    position: center;
+    margin-top: 0px;
+    border-image: 0px;
+    outline: white;
+    width: 200px;
+    height: 170px;
+    opacity: 1;
+}
+
+#choose-logo{
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.checkbox-icon {
+    flex-direction: row;
+    justify-content: center;
+}
+
+#default-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.icon-preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.MuiFilledInput-inputMultiline-81 {
+    padding: 0;
+    background: #9dff52;
+    margin: 0px;
+}
+
+.MuiFilledInput-multiline-78 {
+    padding: 27px 12px 10px;
+    box-sizing: content-box;
+    background-color: #96fddc;
+}
+
+input.MuiInputBase-input-32.MuiInput-input-17 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    color:grey;
+    font-size: 25px;
+    font-variant-caps: all-petite-caps;
+    font-weight: bolder;
+    /* text-underline-position: unset; */
+}
+
+.create-area-font{
+    font-size: 40px;
+    font-variant-caps: all-petite-caps;
+
+    color: #0098BB;
+    cursor: pointer;
+        font-family:"Trebuchet MS", Helvetica, sans-serif;	
+    align-self: center; 
+    font-weight: 900;
+}
+
+.choose-logo-font{
+    font-size: 40px;
+    font-variant-caps: all-petite-caps;
+
+    color: #0098BB;
+    cursor: pointer;
+        font-family:"Trebuchet MS", Helvetica, sans-serif;	
+    align-self: flex-start; 
+    font-weight: 900;
+}
+
+.labels-font{
+    font-size: 15px;
+    font-variant-caps: all-petite-caps;
+
+    cursor: pointer;
+        font-family:"Trebuchet MS", Helvetica, sans-serif;	
+    align-self: center; 
+}
+.input-style{
+    font-size: 15px;
+    cursor: pointer;
+    align-content: center;
+    width:300px;
+    font-variant-caps: all-petite-caps;
+
+    justify-content: center;
+        font-family:"Trebuchet MS", Helvetica, sans-serif;	
+    align-self: center;
+    text-align: center;
+    text-justify: center;
+}
+
+.MuiFilledInput-root-71 {
+    position: relative;
+    transition: background-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    background-color: #cffbfb;
+    /* border-top-left-radius: 4px; */
+    /* border-top-right-radius: 4px; */
+}
+
+#input-font{
+        font-family:"Trebuchet MS", Helvetica, sans-serif;	
+    font-size: 15px;
+    font-variant-caps: all-petite-caps;
+
+
+}
+
+.input-style-logo{
+    font-size: 15px;
+    cursor: pointer;
+    width:300px;
+
+    /* justify-content: center; */
+        font-family:"Trebuchet MS", Helvetica, sans-serif;	
+     align-self: center; 
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+
+    text-justify: center;
+        font-family:"Trebuchet MS", Helvetica, sans-serif;	
+}
+
+#button-style{
+    background-color:#0098BB;
+    margin-bottom:40px;
+}
+
+.input-logo{
+    justify-self: center;
+    align-self:center;
+}
+
+.MuiInputBase-input-126 {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 6px 0 7px;
+    display: block;
+    min-width: 0;
+    box-sizing: content-box;
+    background: none;
+    -webkit-tap-highlight-color: transparent;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 900;
+}

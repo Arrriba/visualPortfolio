@@ -1,0 +1,93 @@
+@import "../colorPalette";
+@import "../fonts/noobs-font";
+
+.gamecard-style {
+  text-decoration: none;
+  display: flex;
+  flex: 1;
+  background-color: $darkGray;
+  border-radius: 18px;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+  min-height: 25vh;
+  width: 100%;
+  flex-direction: row;
+  color: white;
+  font-size: 100%;
+  font-family: "noobs-font";
+  font-weight: 100;
+}
+
+.gamecard-style:hover {
+  text-decoration: none;
+}
+
+.gamecard-image {
+  height: 256px;
+  width: 192px;
+  border-radius: 18px;
+}
+
+.gamecard-container {
+  $colors: $green, $orange, $red, $grey;
+  $len: length(
+    $list: $colors
+  );
+  transition: 0.4s;
+  border-radius: 40px;
+  box-shadow: none;
+  margin-bottom: 4vh;
+
+  @for $i from 1 through $len {
+    &:nth-of-type(#{$len}n + #{$i}) {
+      box-shadow: 0 15px nth($list: $colors, $n: $i);
+    }
+  }
+}
+
+.Cards-container {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  flex-direction: column;
+}
+.Cards-container::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.gamecard-container:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 0 8px #f86110cc;
+  transition-duration: 0.7s;
+  transition-delay: 15ms;
+}
+
+.photo-container {
+  float: left;
+  width: 35%;
+  height: 100%;
+  padding: 15px;
+}
+
+.title-rating {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.description-container {
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow-y: hidden;
+}
+.description {
+  font-weight: lighter !important;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  max-height: 256px !important;
+}

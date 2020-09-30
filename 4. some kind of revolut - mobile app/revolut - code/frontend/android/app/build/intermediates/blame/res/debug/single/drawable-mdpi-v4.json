@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\app_features_home_m3.jpg",
+        "source": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\src\\main\\res\\drawable-mdpi\\app_features_home_m3.jpg"
+    },
+    {
+        "merged": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\app_sidemenu_gif.gif",
+        "source": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\src\\main\\res\\drawable-mdpi\\app_sidemenu_gif.gif"
+    },
+    {
+        "merged": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\app_features_login_lazy_town2.jpg",
+        "source": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\src\\main\\res\\drawable-mdpi\\app_features_login_lazy_town2.jpg"
+    },
+    {
+        "merged": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\app_features_topup_toop.jpg",
+        "source": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\src\\main\\res\\drawable-mdpi\\app_features_topup_toop.jpg"
+    },
+    {
+        "merged": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\app_features_login_blank.jpg",
+        "source": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\src\\main\\res\\drawable-mdpi\\app_features_login_blank.jpg"
+    },
+    {
+        "merged": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\app_features_home_youth2.gif",
+        "source": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\src\\main\\res\\drawable-mdpi\\app_features_home_youth2.gif"
+    },
+    {
+        "merged": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\app_features_register_eyee.jpg",
+        "source": "C:\\testgit\\bla\\react-native-training-starters\\accesa-start-2k18\\android\\app\\src\\main\\res\\drawable-mdpi\\app_features_register_eyee.jpg"
+    }
+]

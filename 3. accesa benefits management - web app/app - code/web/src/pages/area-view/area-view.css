@@ -1,0 +1,267 @@
+#area-title {
+    z-index: 2002;
+    color: #0098bb;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 900;
+    font-variant-caps: all-petite-caps;
+    margin-top: 35px;
+}
+
+#delete-icon {
+    margin-top: 35px;
+}
+
+
+#body1 {
+    position: relative;
+    width: 300px;
+    top:130px;
+    left: 460px;
+    height: 500px;
+    background-color: white;
+    background: center;
+    background-repeat: no-repeat;
+    background-image: url('../../images/home-image.jpg');
+    enable-background: 100%;
+    opacity: 1;
+}
+#body1::before{
+    height: 600px;
+    width: 1000px;
+}
+
+#background-img{
+    position: absolute;
+
+    width: 1200px;
+    height: 800px;
+    left: calc(50% - 500px);
+    top: calc(50% - 290px);
+    align-content: flex-start;
+    outline-color: #0098BB;
+    outline-width: 100px;
+    border-color: #0098BB;
+    border-top: 100px;
+    background:bottom;
+    background-repeat: no-repeat;
+    background-position-x: -40px;
+    background-position-y:80px;
+    background-color: white;
+    text-align: center;
+    background-image: url('../../images/home-image.jpg');
+}
+
+
+
+#area-view-container {
+    position: absolute;
+    width: 700px;
+    height: 420px;
+    /* left: calc(50% - 350px);
+    top: calc(50% - 290px); */
+    align-content: center;
+    overflow-y: auto;
+    opacity: 100%;
+    border-width: 100px;
+    outline-color: #0098BB;
+    outline-width: 100px;
+    border-color: #0098BB;
+    border-top: 100px;
+    text-align: center;
+
+}
+
+#area-items {
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+#logo-style {
+    z-index: 2010;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#title {
+    padding-top: 20px;
+    align-self: flex-end;
+    height: 40px;
+    width: 40px;
+    z-index: 4000;
+    opacity: 0.8;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.text-area {
+    height: 150;
+    width: 200;
+    overflow: auto;
+    border: 5px #0098bb;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 40px;
+    /* outline:none; */
+}
+
+#benefits-container {
+    position: absolute;
+    width: 400px;
+    height: 650px;
+    left: calc(50% + 110px);
+    /* top: calc(50% - 290px); */ 
+    align-content: center;
+    overflow-y: auto;
+    opacity: 100%;
+    text-align: center;
+}
+
+#benefit-active {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    line-height: 50px;
+    padding-left: 20px;
+    height: 50px;
+    cursor:pointer;
+    background-color: #c7f241;
+    text-decoration: none;
+    color: black;
+}
+
+#benefit-active:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#benefit-inactive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    line-height: 50px;
+    cursor:pointer;
+    padding-left: 20px;
+    height: 50px;
+    background-color: #D6D8C9;
+    opacity: .7;
+    text-decoration: none;
+    color: black;
+}
+
+#benefit-inactive:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#benefit-name {
+    font-style: italic;
+    font-weight: bold;
+    font-size: auto;
+    line-height: 40px;
+}
+
+#view {
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+#view:hover {
+    cursor: pointer;
+}
+
+#showLoading {
+    display: block;
+    text-align: center;
+}
+
+#hideLoading {
+    display: none;
+}
+
+.topRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.create-program-container {
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    top: 0;
+    left: calc(50% - 100px);
+}
+
+.showCreate {
+    color: blue;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.showCreate:hover {
+    cursor: pointer;
+}
+ 
+.create-program-container #create-input, #create-button, span {
+    margin: 5px;
+}
+
+#edit-button {
+    margin-top: 40px;
+    font-size: 32px;
+    color: blue;
+}
+
+#edit-button:hover {
+    cursor: pointer;
+}
+
+#delete-button {
+    margin-top: 30px;
+    background-color: #ff7453;
+    color: white;
+    height: 50px;
+}
+
+#hide {
+    display: none;
+}
+
+#delete-confirmation {
+    display: flex;
+    flex-direction: column;
+}
+
+#delete-confirmation #confirm {
+    margin: 3px;
+    background-color: #ff7453;
+    color: white;
+    font-size: 12px;
+    line-height: 0px;
+}
+
+#delete-confirmation #cancel {
+    margin: 3px;
+    background-color: #c7f241;
+    color: white;
+    font-size: 12px;
+    line-height: 0px;
+}
+
+.benefits-list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits-header {
+    margin: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

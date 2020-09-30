@@ -1,0 +1,9 @@
+@import './components/loader.scss';
+@import './components/HeaderNavbar.scss';
+@import './components/HomePage.scss';
+@import './components/GameCard.scss';
+
+@font-face {
+    font-family: 'coolvetica-rg';
+    src: local('coolvetica-rg'), url(./fonts/coolvetica-rg.ttf) format('truetype');
+  }

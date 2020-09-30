@@ -1,0 +1,115 @@
+ return (
+
+            // {
+            /*    <ScrollView
+                contentContainerStyle={{
+                    flexGrow: 1,
+                    justifyContent: 'space-between'
+                }}
+                refreshControl={
+                    <RefreshControl
+                        refreshing={this.state.refreshing}
+                        onRefresh={this._onRefresh}
+                    />
+                }
+            />
+            */
+            //}
+            <View style={friendsStyles.container}>
+                <Image style={friendsStyles.image}
+                    source={require('./Friends-PNG-Pic.png')}
+                />
+                <Text
+                    style={friendsStyles.text}>Friends:</Text>
+                <View style={friendsStyles.btnShow}>
+                    {/*
+                            <Button
+                            //color='#ffcc00'
+                            color="#08b3a0"
+                            title="Show friends"
+                            onPress={this._onPressButton}
+                        />
+                       */}
+                </View>
+                <View style={friendsStyles.lista}>
+                    <ScrollView  //scrollEnabled={this.state.enableScrollViewScroll}
+                        scrollEnabled={true}
+                    >
+                        <FlatList
+                            data={this.state.friendsList}
+                            extraData={this.state.friendsList /* so that list is re-rendered when `list` changes */}
+                            keyExtractor={(item: any) => item[0]}
+                            onTouchStart={() => {
+                                this.onEnableScroll(false);
+                            }}
+                            onMomentumScrollEnd={() => {
+                                this.onEnableScroll(true);
+                            }}
+                            renderItem={({ item, index }) => (
+                                <View>
+                                    <Text style={friendsStyles.textItem}
+                                        //selectionColor="#08b3a0"
+                                        onPress={() => Alert.alert("Name: " + this.state.friendsList[index][0] + "\nPhone number: " + this.state.friendsList[index][1])}
+                                    >{this.state.friendsList[index][0]}</Text>
+                                </View>
+                            )}
+                        ></FlatList>
+                    </ScrollView>
+                </View>
+                {/*<FlatList
+            //data={
+                //Object.keys([...this.state.friendsList])
+            //.map((value) =>value)
+          //  }
+            data={
+                [key: [this.state.friendsList
+                .map((value: string) =>value)]
+            ]
+
+              }    
+        
+            renderItem={({item}) => <Text style={friendsStyles.textItem}>{item.valueOf}</Text>}
+          />
+        </View>      
+            */}
+                {/* <Text
+                        style={friendsStyles.text1}
+                    >{[...this.state.friendsList].map((x) =>
+                    x + '\n')}</Text>*/}
+                <TextInput
+                    onChangeText={
+                        (text) => {
+                            this.val(text, 'phoneNumber'),
+                                this.setState({ targetPhoneNumber: text })
+                            this.setState({ textPhone: this.state.targetPhoneNumber })
+                        }
+                    } style={[loginStyles.textbox2,
+                    !this.state.phoneNumberValidate ? loginStyles.error : null]}
+                    placeholder='Phone Number'
+                    underlineColorAndroid='#FFDA22'
+                >{
+                        this.state.targetPhoneNumber == '' ? null : this.state.targetPhoneNumber
+                    }
+                </TextInput>
+                <View style={friendsStyles.btnShow}>
+                    <Button
+                        title="add friend"
+                        color='#ffcc00'
+
+                        onPress={this._onPressButtonAdd}
+                    />
+                </View>
+                <View style={friendsStyles.btnShow}>
+                    <Button
+                        title="Groups"
+                        color='#08b3a0'
+
+                        onPress={() => this.props.navigation.navigate("groups")}
+                    />
+                </View>
+
+            </View>
+
+            // </ScrollView>
+        );
+    

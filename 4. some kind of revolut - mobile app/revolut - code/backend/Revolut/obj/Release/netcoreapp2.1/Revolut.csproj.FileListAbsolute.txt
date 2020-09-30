@@ -1,0 +1,15 @@
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\bin\Release\netcoreapp2.1\Revolut.deps.json
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\bin\Release\netcoreapp2.1\Revolut.runtimeconfig.json
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\bin\Release\netcoreapp2.1\Revolut.runtimeconfig.dev.json
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\bin\Release\netcoreapp2.1\Revolut.dll
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\bin\Release\netcoreapp2.1\Revolut.pdb
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\obj\Release\netcoreapp2.1\Revolut.csprojAssemblyReference.cache
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\obj\Release\netcoreapp2.1\Revolut.csproj.CoreCompileInputs.cache
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\obj\Release\netcoreapp2.1\Revolut.RazorAssemblyInfo.cache
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\obj\Release\netcoreapp2.1\Revolut.RazorAssemblyInfo.cs
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\obj\Release\netcoreapp2.1\Revolut.AssemblyInfoInputs.cache
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\obj\Release\netcoreapp2.1\Revolut.AssemblyInfo.cs
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\obj\Release\netcoreapp2.1\Revolut.RazorTargetAssemblyInfo.cache
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\obj\Release\netcoreapp2.1\Revolut.dll
+C:\testgit\bla\react-native-training-starters\AccesaApi\Revolut\Revolut\obj\Release\netcoreapp2.1\Revolut.pdb

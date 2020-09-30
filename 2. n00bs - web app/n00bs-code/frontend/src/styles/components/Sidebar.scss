@@ -1,0 +1,47 @@
+@import "../colorPalette";
+@import "../fonts/noobs-font";
+
+.sidebar-style {
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  background-color: $darkGray;
+  border-radius: 15px;
+  align-items: center;
+  height: auto;
+  overflow-y: scroll;
+  float: left;
+  scrollbar-width: none;
+  list-style: none;
+  color: white;
+  font-size: 100%;
+  font-family: "noobs-font";
+  font-weight: 100;
+  padding-left: 0;
+}
+.sidebar-style::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.row-active {
+  transform: scale(0.8, 0.8);
+  background-color: $green !important;
+  color: $white;
+}
+
+.sidebar-row {
+  cursor: pointer;
+  font-size: larger;
+  border-radius: 4px;
+  margin: 2px 8px;
+  width: 150px;
+  text-align: center;
+}
+
+.sidebar-row:hover {
+  transform: scale(0.8, 0.8);
+  transition-duration: 0.5s;
+  transition-delay: 15ms;
+  background-color: #f86110cc;
+  color: $white;
+}

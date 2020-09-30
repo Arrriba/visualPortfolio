@@ -1,0 +1,46 @@
+import React, { Component } from 'react';
+import Tooltip from '@material-ui/core/Tooltip';
+import '../../styles/components/HeaderNavbar.scss';
+import { firebase, googleAuthProvider } from "../../firebase/firebase";
+
+class HeaderNavbar extends Component {
+
+  constructor(props) {
+    super(props);
+  }
+
+  state = {
+    user: null
+  };
+
+  componentDidMount()
+  {
+    firebase.auth().onAuthStateChanged((user) => {
+      console.log(user); 
+      this.setState(()=> {return {user:user};});
+  })
+  }
+
+  render() {
+    return (
+      <div className='toolbar-style'>
+        <div className="logo-container">
+          <Tooltip title="home">
+            <img className='logo-img-style' alt='logo' src={require('../../images/logo.png')}></img>
+          </Tooltip>
+        </div>
+        <div className="login-container">
+<<<<<<< HEAD
+          <img alt='login' className="login-icon" onClick={() => firebase.auth().signInWithPopup(googleAuthProvider)} src={require('../../images/login.png')}></img>
+=======
+           {!this.state.user && <button className='login-button' onClick={() => firebase.auth().signInWithPopup(googleAuthProvider)}><img src="https://img.icons8.com/small/16/000000/google-logo.png"/><b>Login</b></button>}
+           {this.state.user && <button className='login-button' onClick={() => firebase.auth().signOut()}><b>Log out</b></button>}
+>>>>>>> bb194d60271e16b5ef6091fc0f7ef0033f3c13c9
+        </div>
+        {this.state.user && <div>{this.state.user.displayName}</div>}
+      </div>
+    );
+  }
+}
+
+export default HeaderNavbar;

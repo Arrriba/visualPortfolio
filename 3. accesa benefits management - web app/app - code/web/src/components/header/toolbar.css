@@ -1,0 +1,93 @@
+.toolbar-style {
+    height: 1000px;
+}
+
+.user-img-style {
+    width: 65px;
+    background-color: white;
+    color: white;
+    height: 60px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.logout-img-style {
+    width: 40px;
+    background-color: #f9fdfd;
+    color: #f9fdfd;
+    height: 40px;
+    right: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    
+}
+
+.breadcrumb {
+    position: relative;
+    margin-top: 8px;
+    color: #f9fdfd;
+    background-color: #f9fdfd;
+}
+
+.button {
+    width: 1000px;
+    background-color: white;
+    color: white;
+}
+
+.moved {
+    position: absolute;
+    color: #f9fdfd;
+    background-color: #f9fdfd;
+    animation: myfirst .1s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation: myfirst .1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0;
+    -webkit-animation-fill-mode: forwards;
+
+}
+
+@-webkit-keyframes myfirst {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 42px;
+    }
+
+    75% {
+        left: 82px;
+    }
+
+    100% {
+        left: 190px;
+    }
+}
+
+@keyframes myfirst {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 42px;
+    }
+
+    75% {
+        left: 82px;
+    }
+
+    100% {
+        left: 190px;
+    }
+}
+
+.breadcrumbs-container {
+    background-color: white;
+}

@@ -1,0 +1,137 @@
+@import '../colorPalette';
+@import '../fonts/noobs-font';
+
+.toolbar-style {
+    background-color: $darkGray;
+    border-radius: 15px;
+    align-content: center;
+    box-shadow: 0 7px #222222;
+    margin-bottom: 2vh;
+
+}
+.logo-img-style {
+    //display: flex;
+    width: calc(10px + 20vw);
+    max-width: 15vw;
+    padding-left: 1vw;
+    cursor: pointer;
+    //max-height: 20vh;
+}
+
+.wishlist-img-style {
+    //display: flex;
+    //width: calc(10px + 20vw);
+    max-width: 5vw;
+    cursor: pointer;
+    padding-right: 2vw;
+}
+
+.wishlist-img-style:hover{
+    transform: scale(0.8, 0.8);
+    transition-duration: 0.5s;
+    transition-delay: 15ms;
+    color: $white;
+}
+
+.navbar-icons{
+    height:100%;
+    padding-right: 3vw;
+    padding-top:1vh;
+    //margin-right: 1vw;
+}
+.user-name{
+    font-family: 'noobs-font';
+    //letter-spacing: 2px;
+    font-size: larger;
+    color: $white;
+    font-weight: 700;
+    background-color: $orange;
+    border: none;
+    border-radius: 12px;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    text-align: center;
+    box-shadow: 0 4px $green;
+  }
+
+<<<<<<< HEAD
+  .nav-div-right{
+      align-self: center;
+=======
+  .user-name:hover{
+      text-decoration: none;
+>>>>>>> user-page
+  }
+
+// .login-button{
+//     margin: 4vh;
+//     background:$orange;
+//     color: $darkGray;
+//     height: 5vh;
+//     width: 10vw;
+//     border-radius: 15px;
+//     border: none;
+//     white-space: nowrap; 
+//     font-family: 'noobs-font';  
+// }
+
+.btn {
+	border: none;
+	font-family: 'noobs-font';
+	font-size: inherit;
+    color: $white !important;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-2g:hover {
+	box-shadow: 0 4px $red;
+	top: 2px;
+}
+
+.btn-2g {
+	border-radius: 40px;
+}
+
+.btn-2 {
+	background: $orange !important;
+	color: #fff;
+	box-shadow: 0 6px $red;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.login-icon{
+    display: flex;
+    justify-content: space-around;
+    margin: 3vh;
+    color: thin solid white;
+    width: 15vw;
+    white-space: nowrap; 
+    font-family: 'noobs-font';  
+}
+  
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,0 +1,43 @@
+#login-container {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: calc(50% - 250px);
+    top: calc(50% - 250px);
+    padding: 10px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.cover-layer {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 50;
+    opacity: .7;
+}
+
+#text-input {
+    text-align: center;
+}
+
+#button {
+    width: 50px;
+    text-align: center;
+}
+
+.login {
+    position: absolute;
+    height: 96px;
+    width: 96px;
+    overflow: visible;
+    top: -2%;
+    left:80%;
+    z-index: 120;
+}

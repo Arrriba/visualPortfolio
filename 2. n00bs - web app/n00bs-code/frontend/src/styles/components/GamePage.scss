@@ -1,0 +1,139 @@
+@import "../colorPalette";
+@import "../fonts/noobs-font";
+
+.Game-div {
+  background-color: $darkGray;
+  border-radius: 30px;
+  box-shadow: 0 7px #222222;
+  margin-top: 3vh;
+  padding: 2vh;
+  height: 100%;
+}
+
+.Game-div-container {
+  margin-bottom: 30px;
+}
+
+.more-info-div {
+  background-color: $darkGray;
+  border-radius: 30px;
+  box-shadow: 0 7px #222222;
+  margin-top: 3vh;
+  padding: 2vh;
+  color: white;
+  font-size: 18px;
+  font-family: "noobs-font";
+  font-weight: 100;
+  justify-content: "space-around";
+  display: flex;
+}
+
+.more-info-div.row.no-gutters {
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.review-div {
+  background-color: $darkGray;
+  border-radius: 30px;
+  box-shadow: 0 7px #222222;
+  margin-top: 3vh;
+  padding: 2vh;
+  justify-content: left;
+}
+
+.review-div-added {
+  background-color: $darkGray;
+  border-radius: 30px;
+  box-shadow: 0 7px #222222;
+  margin-top: 3vh;
+  padding: 2vh;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding-left: 85px;
+}
+
+.reccomending-div {
+  background-color: $darkGray;
+  border-radius: 30px;
+  box-shadow: 0 7px #222222;
+  margin-top: 3vh;
+  padding: 2vh;
+}
+
+.Game-image {
+  border-radius: 18px;
+}
+
+.game-page-content {
+  font-family: "noobs-font";
+  color: white;
+  font-weight: 100;
+}
+
+.game-page-leave-rev {
+  font-family: "noobs-font";
+  color: white;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.game-page-title {
+  font-size: 3rem;
+}
+
+.addWishlist-img-style {
+  max-width: 4vw;
+  cursor: pointer;
+  padding-left: 1vw;
+}
+
+.isInWishlist-img-style {
+  max-width: 4vw;
+  cursor: pointer;
+  padding-left: 1vw;
+  color: rgb(59, 56, 56);
+  background: rgba(39, 62, 84, 0.82);
+}
+
+.addWishlist-img-style:hover {
+  transform: scale(0.8, 0.8);
+  transition-duration: 0.5s;
+  transition-delay: 15ms;
+  color: $white;
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem;
+  margin: -0.4rem 0 0 0.3rem;
+}
+.review {
+  margin-left: -7rem;
+}
+
+textarea {
+  height: 150px;
+  width: 400px;
+  background-color: gray;
+  border: orange;
+  border-radius: 0.6rem;
+  border-style: groove;
+  color: white;
+}
+
+.centered {
+  justify-content: center;
+}
+
+.submit-input {
+  background-color: grey;
+  width: 150px;
+  border: orange;
+  border-radius: 0.6rem;
+  border-style: groove;
+  color: white;
+}

@@ -1,0 +1,70 @@
+package game.facade;
+
+import game.control.GameController;
+<<<<<<< HEAD
+import game.converter.dto.CompleteGameDto;
+import game.converter.dto.IdDto;
+import game.converter.dto.ReviewDto;
+import game.converter.dto.ViewGameDto;
+=======
+import game.converter.dto.*;
+>>>>>>> b995f1c01865e519041f02702ac01fc8b02c5ac3
+import genre.converter.dto.GenreIdsListDto;
+import user.converter.dto.UserIdDto;
+
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
+import java.util.List;
+
+/**
+ * @author Bungardean Tudor-Ionut
+ */
+
+@Stateless
+public class GameFacade {
+
+    @EJB
+    private GameController gameController;
+
+    public List<ViewGameDto> getAllGames(){
+        return this.gameController.getAllGames();
+    }
+
+    public List<ViewGameDto> getAllGamesWishlist(UserIdDto userIdDto){
+        return this.gameController.getAllGamesWishlist(userIdDto.getId());
+    }
+
+    public List<ViewGameDto> getGamesByGenres(GenreIdsListDto genreIdsListDto){
+        return this.gameController.getGamesByGenres(genreIdsListDto);
+    }
+
+    public void addReview(ReviewDto reviewDto){
+        this.gameController.addReview(reviewDto);
+    }
+
+<<<<<<< HEAD
+    public List<CompleteGameDto> getCompleteGameData(){
+        return this.gameController.getCompleteGameData();
+    }
+
+    public CompleteGameDto getGameById(IdDto id){
+        return this.gameController.getGameById(id);
+=======
+//    public List<ViewReviewDto> getAllReviews(){
+//        return this.gameController.getAllReviews();
+//    }
+
+    public List<ReviewDto> getGameReviews(IdGameDto idGameDto){
+        //return this.gameController.getGameReviews(idGameDto.getId());
+        return this.gameController.getGameReviews(idGameDto.getId());
+
+    }
+
+    public List<ReviewDto> getUserReview(UserReviewDto idGameDto){
+        //return this.gameController.getGameReviews(idGameDto.getId());
+        return this.gameController.getUserReview(idGameDto);
+
+>>>>>>> b995f1c01865e519041f02702ac01fc8b02c5ac3
+    }
+
+}
