@@ -6,7 +6,6 @@ These folders are a visual portfolio with a really small part of my projects. Ea
 - backend: ASP.net Core (C#)
 - db: SQL Server
 - extra: BEACONS
-
 * demo: https://www.youtube.com/watch?v=ib8kWaqHEZk&feature=youtu.be
 
 2. N00bs (web app):
