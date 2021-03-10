@@ -23,3 +23,7 @@ These folders are a visual portfolio with a really small part of my projects. Ea
 - backend: .net (C#)
 - db: SQL Server
 
+5. Basic platform for job applications (web app):
+- frontend: React Redux
+- backend: Java (gradle, Spring)
+- db: SQLite
